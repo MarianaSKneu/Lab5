@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+#cage {
+    border: 4px solid rgb(90, 0, 128);
+    padding: 10px;
+    background-color: rgb(249, 226, 255);
+    text-align: center;
+    border-radius: 10px;
+    width: fit-content;
+    >h2{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+footer{
+    margin: 0;
+    padding: 10px;
+    height: 40px;
+    background-color: rgb(249, 226, 255);
+    text-align: right;
+    font-size: 12px;
+    color: rgb(90, 0, 128);
+
+}
+/*назва 'практична робота' */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+/*задання висоти таблиці та можливість прокручування*/
+.table-wrap {
+    height: 250px;       
+    overflow: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    font-size: 22px;
+    border: 1.4px solid rgb(90, 0, 128);
+    
+}
+
+/*заголовки*/
+thead th{
+    font-weight: bold;
+    text-align: center;   
+    position: sticky;     
+    top: -1px;
+    background-color: rgb(249, 226, 255);
+    border: 1.4px solid rgb(90, 0, 128);
+    padding: 8px; 
+}
+
+/*вміст таблиці*/
+tbody th {
+    font-weight: normal;    
+    text-align: left;    
+    padding: 8px;
+    border: 1.4px solid rgb(90, 0, 128);
+}
+
+/*кольори рядків*/
+tbody tr:nth-child(even) {
+    background-color: rgb(194, 232, 255);
+}
+tbody tr:hover th {
+    background-color: rgb(209, 173, 250);
+}
+
+
+
+/* виділення низького рейтингу*/
+/*
+tbody tr.low-rat th {
+  background-color: rgb(250, 163, 183); 
+}
+  */
+tbody tr.low-rat:hover th {
+    background-color: rgb(255, 120, 140);
+}
+
+/*підпис*/
+table caption {
+    padding: 8px;
+    caption-side: top;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+}
+  
