@@ -1,0 +1,20 @@
+[
+  {"id": "1", "title": "The Azure Sky", "author": "I. Petrov", "year": 2018, "genre": "Fiction", "rating": 4},
+  {"id": "2", "title": "History of Small Things", "author": "M. Ivanova", "year": 2012, "genre": "History", "rating": 3},
+  {"id": "3", "title": "Practical Science 101", "author": "A. Kuznets", "year": 2020, "genre": "Science", "rating": 5},
+  {"id": "4", "title": "Hidden Rivers", "author": "S. Lee", "year": 2016, "genre": "Fiction", "rating": 4},
+  {"id": "5", "title": "The Last Chronicle", "author": "G. Novak", "year": 1999, "genre": "Non-fiction", "rating": 2},
+  {"id": "6", "title": "Stars & Codes", "author": "R. Alvarez", "year": 2021, "genre": "Science", "rating": 5},
+  {"id": "7", "title": "Tales of Thistle", "author": "K. O'Brian", "year": 2007, "genre": "Fantasy", "rating": 4},
+  {"id": "8", "title": "Walking Through Time", "author": "L. Mikhail", "year": 2010, "genre": "History", "rating": 3},
+  {"id": "9", "title": "Notes on Everything", "author": "D. Roman", "year": 2005, "genre": "Non-fiction", "rating": 3},
+  {"id": "10", "title": "Moonlit Paths", "author": "E. Grin", "year": 2019, "genre": "Fantasy", "rating": 5},
+  {"id": "11", "title": "Alice's Adventures in Wonderland", "author": "Lewis Carroll", "year": 1865, "genre": "Fantasy", "rating": 5},
+  {"id": "12", "title": "The Hobbit", "author": "J. R. R. Tolkien", "year": 1937, "genre": "Fantasy", "rating": 5},
+  {"id": "13", "title": "The Hite Report", "author": "Shere Hite", "year": 1976, "genre": "Non-fiction", "rating": 3},
+  {"id": "14", "title": "The Ginger Man", "author": "J. P. Donleavy", "year": 1955, "genre": "History", "rating": 3},
+  {"id": "15", "title": "The Girl with the Dragon Tattoo", "author": "Stieg Larsson", "year": 2005, "genre": "Fantasy", "rating": 1},
+  {"id": "16","title": "Anaconda", "author": "W. Gotar", "year": 2000, "genre": "Science", "rating": 4},
+  {"id": "17", "title": "Dune", "author": "Frank Herbert", "year": 1965, "genre": "Fiction", "rating": 5},
+  {"id": "18", "title": "The Exorcist", "author": "William Peter Blatty", "year": 1971, "genre": "History", "rating": 2}
+]

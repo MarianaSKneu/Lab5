@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <link rel="stylesheet" href="styles.css" media="screen">
+</head>
+<body>
+    <header>
+        <div>
+            <h2>Зоря</h2>
+        </div>
+
+        <div>
+            <p>Лабораторна робота №1. Стадник Мар'яна ІА-401</p>
+            <p>Сайт - список книжок/ бібліотека</p>
+        </div>
+    </header>
+
+    <main>
+        <h3>Вітаємо в електронному формулярі</h3>
+        <h1>Зоря</h1>
+        <p class="tip">Ви можете знайти потрібну книжку за допомогою пошуку;</p>
+        <p class="tip">змінити значення в таблиці, додати нову кнжку або видалити книжку.</p>
+        <div id="Flex">
+            <div> 
+                <div id="FilterInput">
+                    <p>Пошук</p>
+                    
+                    <label for="genreInput">Genre: </label>
+                    <select name="genre" id="genreInput">
+
+                    </select>
+
+                    <label for="yearInput">Year: </label>
+                    <input value=" " type="number" id="yearInput">
+
+                    <label for="ratingInput">Rating (1-5): </label>
+                    <input value=" " type="number" id="ratingInput" min="1" max="5">
+
+                    <p id="SearchP"><span>&#8594;</span></p>
+
+                    <p class="tip">залишіть комірки пустими, щоб вибрати всі</p>
+                </div>
+
+                <div id="ChangeDataDiv">
+                    <p>Choose option</p>
+                    <p id="ReadOnly" class="selected">Read only</p>
+                    <p id="ChangeData">Change data</p>
+                    <p id="AddNew">Add new</p>
+                    <p id="DeleteRow">Delete row</p>
+                    <p class="tip">спочатку виберіть функцію, потім нажміть на потірбний рядок</p>
+                </div>
+            </div>
+            
+            <!--  -->
+            
+
+            <section>
+                <div id="TableContainer">
+                    <table>
+                   
+                    </table>
+                </div>
+                
+            </section>
+        
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>Електронний формуляр "Зоря"</p>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
