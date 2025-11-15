@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+    --color-purple: #532B88;
+    --color-dark-purple: #2F184B;
+
+    --color-dark: #190726;
+    --color-white: #EDEDEA;
+
+    --color-light-purple: #e9ddf3;
+    --color-pink :  #d0a5e1;
+
+    background-color: var(--color-white);
+    color: var(--color-dark);
+
+    font-family: Tahoma, sans-serif;
+
+}
+header{
+    background-color: var(--color-purple);
+    color: var(--color-white);
+
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    width: fit-content;
+    padding: 10px;
+}
+
+footer{
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    min-height: 50px;
+
+    >p{
+        padding: 10px
+    }
+}
+
+.tip{
+    font-size: 14px;
+    text-align: left;
+    color: rgb(114, 113, 113);
+    cursor: auto;
+}
+main{
+    padding: 50px;
+    min-height: 500px;
+
+    > h1, h3{
+        text-align: center;
+    }
+    > .tip{
+        margin: 0;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+main section{
+    margin-left: 200px;
+
+}
+#Flex {
+    display: flex;
+    margin-top: 20px;
+
+    > div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+#FilterInput{
+    border: 2px solid var(--color-purple);
+    padding: 20px;
+    border-radius: 8px;    
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    max-height: 400px;
+
+
+    > p{
+        font-size: 20px; 
+        text-align: center;
+    }
+    > select{
+        font-size: 16px;
+        margin-bottom: 15px;
+        background-color: none;
+        margin-top: 4px;
+    }
+
+    > select:focus{
+        border: 2px solid var(--color-purple);
+    }
+
+    > .tip{
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+#SearchP span{
+    border: 2px solid var(--color-purple);
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 6px;
+    border-radius: 8px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input{
+    margin-bottom: 15px;
+    font-size: 16px;
+    margin-top: 4px;
+    outline: none;
+}
+input:focus{
+    border: 2px solid var(--color-purple);
+}
+
+#ChangeDataDiv{
+    border: 2px solid var(--color-purple);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 200px;
+
+    > p{
+        padding: 8px;
+        margin: 0;
+        font-size: 16px; 
+        text-align: center;
+        cursor: pointer;
+    }
+    > p:nth-child(1){
+        font-size: 20px; 
+        cursor:auto;
+    }
+    > .tip{
+        padding: 10px;
+        font-size: 14px;
+        text-align: left;
+        cursor: auto;
+    }
+}
+
+/*
+form
+*/
+#bookEditForm{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--color-purple);
+    border-radius: 8px;
+    background-color: var(--color-light-purple);
+    padding: 8px;
+
+    > button{
+        cursor: pointer;
+        padding: 8px;
+        margin-bottom: 8px;
+        font-size: 14px; 
+        border: 2px solid var(--color-pink);
+        border-radius: 8px;
+        background-color: var(--color-pink);
+    }
+    > button:hover {
+        border: 2px solid var(--color-purple);
+    }
+}
+
+#FilterInput{
+    background-color: none;
+}
+.selected{
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    border-radius: 8px;
+}
+
+table{
+    width: 800px;
+    table-layout: fixed;
+    
+}
+
+
+/* Message box for delete, add, change*/
+#message-box {
+    position: fixed;
+    bottom: 20px;
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: var(--color-dark-purple);
+    color: var(--color-white);
+    border: var(--color-white) 2px solid;
+    padding: 10px 20px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+#message-box.show {
+    opacity: 1;
+}
+#message-box.hidden {
+    display: none;
+}
+#message-box.show-error{
+    background-color: var(--color-pink);
+    border: var(--color-dark) 2px solid;
+    color: var(--color-dark);
+    opacity: 1;
+}
+
+
+/*
+table-layout: fixed;  
+
+*/
+table, th, td{
+    border: 2px solid var(--color-purple);
+    border-collapse: collapse;
+}
+th, td{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden; 
+}
+th{
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    > span {
+        cursor: pointer;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+}
+th:nth-child(1) { width: 4%; }
+th:nth-child(2) { width: 35%; }
+th:nth-child(3) { width: 20%; }
+th:nth-child(4) { width: 10%; }
+th:nth-child(5) { width: 17%; }
+th:nth-child(6) { width: 14%; }
+
+table tr.selectedRow{
+    background-color: var(--color-light-purple);
+}
+
+#TableContainer{
+    max-width: 100%;
+    overflow-x: auto;        /* horizontal scroll only */
+    overflow-y: hidden;
+    /*-webkit-overflow-scrolling: touch; */
+}
+
+
+@media (max-width: 1300px){
+    main section{
+        margin-left: 50px;
+
+    }
+}
+
+@media (max-width: 1200px){
+    main section{
+        margin-left: 10px;
+
+    }
+    main {
+        margin: 0;
+        padding: 8px;
+    }
+    main #Flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #FilterInput, #ChangeDataDiv{
+        margin-left: 100px;
+    }
+    #TableContainer{
+        overflow-x: auto;    
+        > table {
+            width: 800px;
+        }
+    }
+}

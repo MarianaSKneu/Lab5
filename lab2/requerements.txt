@@ -1,0 +1,8 @@
+need .venv with modules : 
+fastapi
+uvicorn
+sqlalchemy 
+python-multipart
+
+to start : activate the virtual enviroment
+then do : uvicorn main2:app --reload
